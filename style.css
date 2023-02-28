@@ -1,0 +1,270 @@
+body {
+    background-image: url('./images/doodad2.jpg'); 
+    background-repeat: repeat; 
+}
+
+.navbar{
+    background-image: url('./images/doodad3.jpg');
+}
+
+.navbar-brand{
+    color:  #fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+ }
+
+.navbar-nav .nav-link.active{
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active:hover{
+    color: #3641e2;
+}
+
+ .navbar-brand:hover{
+    color: #fff;
+    text-shadow:  1px 1px 1px #3641e2, 2px 2px 1px #3641e2;
+ }
+.nav-item{
+    margin: 5px;
+    border: 3px solid rgb(38, 0, 128);
+}
+ .nav-link{
+    color:#fff; 
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+ }
+
+ .nav-link:hover{
+    color: #3641e2;
+    background-color:  #fff;
+ }
+
+ .carousel-item img{
+    height: 700px;
+    width: 600px;
+    object-fit: cover;
+ }
+
+ .carousel {
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid rgb(38, 0, 128);
+ }
+
+ main{
+    border: 3px solid rgb(38, 0, 128);
+    margin-bottom: 5px;
+    flex-direction: column;
+    margin: 5px;
+    box-sizing: border-box;
+ }
+ 
+ .text{
+    margin: 15px;
+ }
+
+ .notice, .profile, .media, .discography {
+    border: 3px solid rgb(38, 0, 128);
+    margin-bottom: 5px;
+    flex-direction: column;
+    margin: 5px;
+    box-sizing: border-box;
+ }
+
+ .media .camera-button{
+    text-align: center;
+ }
+ .row {
+    display: flex;
+    margin: 5px;
+  }
+  
+ .column {
+    box-sizing: border-box;
+    flex: 20%;
+    padding: 5px;
+    border: 3px solid rgb(38, 0, 128);
+  }
+
+ h2 {
+    color: #3641e2;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+ }
+ 
+ 
+ h2:hover{
+    color: #fff;
+    text-shadow:  1px 1px 1px #3641e2, 2px 2px 1px #3641e2;
+ }
+
+ h3{
+    color: #3641e2;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+ }
+ 
+ p{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+ }
+
+ span {
+    color: #3641e2;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+ }
+
+ .btn-primary {
+    background-color: #fff;
+    border-color: #3641e2;
+    color: #3641e2;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-left: 0;
+}
+.container{
+    padding: 5px;
+
+    border: 3px solid rgb(38, 0, 128);
+    text-align: center;
+   
+    width: 100%;
+}
+ .modal-content {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+ .modal-body {
+    margin:auto;
+    margin-bottom: 5px;
+    width: 90%;
+    border: 3px solid rgb(38, 0, 128);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+ }
+ 
+ 
+ .modal-body h3 {
+    text-align: center;
+    width: 100%;
+ }
+ 
+ 
+ .modal-body label{
+    display: block;
+    padding: 5px;
+ }
+ 
+ 
+ .modal-body input{
+    width: 100%;
+ }
+ 
+ 
+ .modal-body input[type=submit] {
+    color: white;
+    background-color: #3641e2;
+    border-radius: 3px;
+    width: 50%;
+    border-color: #3641e2;
+ }
+ 
+ .modal-body input[type=submit]:hover{
+    color:  #3641e2 ;
+    background-color: white;
+ }
+
+
+ .modal-title{
+    color: #3641e2;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+ }
+ 
+ .modal-footer button{
+    color: white;
+    background-color: #3641e2;
+    border-radius: 3px;
+    width: 50%;
+    border-color: #3641e2;
+ }
+
+ .camera-button img{
+   width: 250px;
+ }
+
+ .small-gallery img{
+   display: block;
+    width: 30%;
+    object-fit: cover;
+    margin: auto;
+ }
+
+ table,th,td {
+   border : 1px solid #3641e2;
+   border-collapse: collapse;
+   margin: auto;
+   margin-top: 5px;
+ }
+ th,td {
+   padding: 5px;
+ }
+ .table-dis {
+   margin: 5px;
+   border: 3px solid rgb(38, 0, 128);
+   width: 100%;
+   text-align: center;
+   border-radius: 10px;
+ }
+
+ .table-dis button{
+      color: white;
+      background-color: #3641e2;
+      border-radius: 3px;
+      width: 50%;
+      border-color: #3641e2;
+      margin-top: 5px;
+ }
+
+ footer {
+    left: 0;
+    bottom: 0;
+    background-image: url('./images/doodad3.jpg');
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    width:auto;
+ }
